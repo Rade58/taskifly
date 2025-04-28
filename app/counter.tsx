@@ -7,11 +7,11 @@ import {
 } from 'react-native';
 
 export default function CounterScreen() {
-  const router = useRouter();
+  // const router = useRouter();
 
   return (
     <View style={styles.container}>
-      <TouchableOpacity
+      {/* <TouchableOpacity
         onPress={() => {
           router.navigate('/idea');
         }}
@@ -25,7 +25,7 @@ export default function CounterScreen() {
         >
           Go to /idea
         </Text>
-      </TouchableOpacity>
+      </TouchableOpacity> */}
       <Text style={styles.text}>Counter</Text>
     </View>
   );

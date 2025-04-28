@@ -7,7 +7,7 @@ import {
   // Alert,
 } from 'react-native';
 
-import { Link } from 'expo-router';
+// import { Link } from 'expo-router';
 
 // PixelRatio.get() will show you how many pixel is per unit of measurement
 // in your device
@@ -18,7 +18,7 @@ import { ShoppingListItem } from '../components/ShoppingListItem';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Link
+      {/* <Link
         href="/counter"
         style={{
           textAlign: 'center',
@@ -27,7 +27,7 @@ export default function App() {
         }}
       >
         Go to /counter
-      </Link>
+      </Link> */}
       <ShoppingListItem isCompleted={false} name="Coffee" />
       <ShoppingListItem isCompleted name="Tea" />
       <ShoppingListItem isCompleted={true} name="Milk" />
