@@ -6,6 +6,7 @@ export default function Layout() {
   return (
     <Tabs
       screenOptions={{ tabBarActiveTintColor: theme.colorCerulean }}
+      // screenOptions={{ tabBarActiveTintColor: 'red' }}
     >
       <Tabs.Screen
         name="index"
@@ -20,6 +21,7 @@ export default function Layout() {
         name="counter"
         options={{
           title: 'Counter',
+          headerShown: false,
           tabBarIcon: ({ color, size }) => {
             return (
               <AntDesign
